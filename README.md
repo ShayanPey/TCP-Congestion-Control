@@ -41,9 +41,9 @@ We can observe that in this scenario, all of the congestion were caused by packe
 ### Congestion Probability = 5\%, 10\%, 50\%
 
 <p float="left">
-  <img src="https://github.com/ShayanPey/TCP-Congestion-Control/assets/12760574/ac342303-6074-4002-b1d5-196d26dc1929" width="300" />
-  <img src="https://github.com/ShayanPey/TCP-Congestion-Control/assets/12760574/13f3e0c2-233b-40de-85a7-65840ebb33de" width="300" /> 
-  <img src="https://github.com/ShayanPey/TCP-Congestion-Control/assets/12760574/b8324d66-1c97-443c-8e9d-bb8f11e66a11" width="300" /> 
+  <img src="https://github.com/ShayanPey/TCP-Congestion-Control/assets/12760574/ac342303-6074-4002-b1d5-196d26dc1929" width="250" />
+  <img src="https://github.com/ShayanPey/TCP-Congestion-Control/assets/12760574/13f3e0c2-233b-40de-85a7-65840ebb33de" width="250" /> 
+  <img src="https://github.com/ShayanPey/TCP-Congestion-Control/assets/12760574/b8324d66-1c97-443c-8e9d-bb8f11e66a11" width="250" /> 
 </p>
 
 This is not the behavior we expect from TCP Reno, and that is because we are setting the value of {each sequence getting lost. This is not realistic, hence the unrealistic results. We will explore Reno's behavior in a more realistic setting.
@@ -69,9 +69,9 @@ We can observe that after the congestion, the `cwnd` will increase more quickly 
 ### Congestion Probability = 5\%, 10\%, 50\%
 
 <p float="left">
-  <img src="https://github.com/ShayanPey/TCP-Congestion-Control/assets/12760574/a768fbd6-8a33-490e-b5e4-901104d2628c" width="300" />
-  <img src="https://github.com/ShayanPey/TCP-Congestion-Control/assets/12760574/4b2e8ea6-5632-4ad7-9bed-633255463047" width="300" /> 
-  <img src="https://github.com/ShayanPey/TCP-Congestion-Control/assets/12760574/ffb7dbe7-e874-4a17-9c07-97dc1d05a1a4" width="300" /> 
+  <img src="https://github.com/ShayanPey/TCP-Congestion-Control/assets/12760574/a768fbd6-8a33-490e-b5e4-901104d2628c" width="250" />
+  <img src="https://github.com/ShayanPey/TCP-Congestion-Control/assets/12760574/4b2e8ea6-5632-4ad7-9bed-633255463047" width="250" /> 
+  <img src="https://github.com/ShayanPey/TCP-Congestion-Control/assets/12760574/ffb7dbe7-e874-4a17-9c07-97dc1d05a1a4" width="250" /> 
 </p>
 
 Here, we cannot observe the cubic behavior of this congestion control algorithm, and that is because the scale is quite small. For instance, when there is a $50\%$ chance for each sequence to get lost, then the scale is too small for the cubic behavior to appear. Again, this is an unrealistic scenario.
